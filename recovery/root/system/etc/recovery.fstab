@@ -70,5 +70,10 @@ odm	/odm	f2fs	ro	avb,logical,first_stage_mount
 /dev/block/platform/bootdevice/by-name/pi_img	/pi_img	emmc	default	recoveryonly
 /dev/block/platform/bootdevice/by-name/vbmeta_samsung	/vbmeta_samsung	emmc	default	recoveryonly
 
+# Temporarily generated to workaround Magisk bug on MTK A-only
+/dev/block/platform/bootdevice/by-name/nvram		/nvram		emmc	defaults		recoveryonly
+/dev/block/platform/bootdevice/by-name/nvdata		/nvdata		emmc	defaults		recoveryonly
+/dev/block/platform/bootdevice/by-name/nvcfg		/nvcfg		emmc	defaults		recoveryonly
+/dev/block/platform/bootdevice/by-name/persistent	/persistent	emmc	defaults		recoveryonly
 
 
