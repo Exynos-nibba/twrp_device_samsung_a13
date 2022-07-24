@@ -1,18 +1,16 @@
-## Recovery Device Tree for the Samsung Galaxy A32 4G (MTK)
+## Recovery Device Tree for the Samsung Galaxy A13 4G (MTK)
 
 ## How-to compile it:
 
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch twrp_a32-eng
+lunch twrp_a13-eng
 make recoveryimage
 ```
 
 Blobs version:
-> Kernel base: A325FXXU2BVD6
+> Kernel base: A137FXXU1AVF1
 
-> Ramdisk, DTB, DTBO base: A325FXXU2BVD6
+> Ramdisk, DTB, DTBO base: A137FXXU1AVF1
 
-Kernel source:
-> https://github.com/long266/android_kernel_samsung_a32/tree/s

@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a32
+DEVICE_PATH := device/samsung/a13
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true

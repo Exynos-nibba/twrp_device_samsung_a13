@@ -1,4 +1,4 @@
-ro.display.series=Samsung A32 4G
+ro.display.series=Samsung A13 4G
 #ro.product.board=k69v1_64_titan_marmot
 ro.board.platform=mt6768
 sys.usb.controller=musb-hdrc
