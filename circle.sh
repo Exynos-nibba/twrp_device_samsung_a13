@@ -1,5 +1,5 @@
 # Buildbot script for CircleCI
-# coded by bruh™ aka Exynos-nigg
+# coded by bruhâ„¢ aka Exynos-nigg
 
 MANIFEST_LINK=https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
 BRANCH=twrp-12.1
@@ -53,7 +53,7 @@ git clone -b twrp-12.1 https://github.com/Exynos-nibba/twrp_device_samsung_a13.g
 # 
 
 # extra dependencie for building dtbo
-git clone -b lineage-19.1 https://github.com/LineageOS/android_hardware_samsung.git hardware/samsung
+#git clone -b lineage-19.1 https://github.com/LineageOS/android_hardware_samsung.git hardware/samsung
 
 # Start building!
 echo ""
